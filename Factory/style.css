@@ -1,0 +1,51 @@
+body {
+	background-color:black !important;
+	height:auto !important;
+	height: 100%;
+
+}
+#startScreen {
+	background-color:grey;
+	color: #00ff00;
+	display: block;
+	text-align:center;
+	height:auto !important;
+	height: 100%;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 50px;
+	display: block;
+}
+#bottom {
+	background-color:black !important;
+	position: relative;
+	border: .5px white dashed;
+	color:green;
+	margin-top: 30px;
+}
+#clms {
+	color:black;
+	border: 2px black solid;
+}
+#clms>div {
+	border: 1px green solid;
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	float: left;
+}
+button {
+	color: #00ff00;
+	background-color:black;
+	border: 2px #00ff00 solid;
+}
+button:hover {
+	color:black;
+	background-color:#00ff00;
+	border: 2px black solid;
+}
+#start1 {
+	}
+/*This is the game*/

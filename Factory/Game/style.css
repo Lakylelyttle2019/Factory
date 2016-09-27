@@ -1,0 +1,61 @@
+.blink {
+  animation: blink-animation 2s steps(5, start) infinite;
+  -webkit-animation: blink-animation 2s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+body {
+	background-color: black;
+	color: #00ff00;
+	border:2px orange solid;
+}
+#game {
+	background-color: #00ff00;
+	border:2px green solid;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+#gui {
+	boder:2px white solid;
+	}
+#console {
+	border:2px white dashed;
+	color:grey;
+	text-align:left;
+	float:left;
+	width:400px;
+	height:150px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:transparent;
+}
+#powerBar {
+	width: 320px;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 0;
+	background-color:grey;
+	position:relative;
+	top: -50%;
+	
+}
+button {
+	width:10%;
+	height:10%;
+	border:1px black dashed;
+	background-color:blue;
+	color:grey;
+}
+button:hover {
+	background-color:grey;
+	color:blue;
+}
